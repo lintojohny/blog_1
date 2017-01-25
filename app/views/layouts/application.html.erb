@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>linto johny</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+<header id="main_navigation" class="clearfix">
+	<a href="#" class="name">linto johny</a>
+	<nav>
+	<%= link_to "Articles", posts_path %>
+	<a href="Projects.html">Projects</a>
+	<a href="contact.html">Contact</a>
+	</nav>
+</header>
+    <%= yield %>
+  </body>
+</html>
